@@ -26,8 +26,8 @@
                              expenditure-on-flood-and-coastal-erosion-risk-management-england.csv#dimension/period                                  Period     Dimension government_year      True
                                                                       http://purl.org/linked-data/cube#measureType                                             Dimension         measure      True
                                                        http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure                                             Attribute                      True
-                          expenditure-on-flood-and-coastal-erosion-risk-management-england.csv#measure/total-spend                             Total Spend       Measure                      True
 expenditure-on-flood-and-coastal-erosion-risk-management-england.csv#measure/total-spend-real-terms-2021-base-year Total Spend (Real Terms 2021 Base Year)       Measure                      True
+                          expenditure-on-flood-and-coastal-erosion-risk-management-england.csv#measure/total-spend                             Total Spend       Measure                      True
         - Columns where suppress output is true: 
 		-- Uri Identifier
 
