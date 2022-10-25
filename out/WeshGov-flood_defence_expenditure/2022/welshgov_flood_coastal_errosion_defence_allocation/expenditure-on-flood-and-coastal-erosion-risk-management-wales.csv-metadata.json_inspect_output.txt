@@ -4,8 +4,8 @@
 - The data cube has the following catalog metadata:
         - Title: Expenditure on flood and coastal erosion risk management (Wales)
         - Label: Expenditure on flood and coastal erosion risk management (Wales)
-        - Issued: 2022-10-25T15:46:40.481431
-        - Modified: 2022-10-25T15:46:40.481431
+        - Issued: 2022-10-25T15:52:04.044391
+        - Modified: 2022-10-25T15:52:04.044391
         - License: https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/
         - Creator: None
         - Publisher: https://gov.wales
