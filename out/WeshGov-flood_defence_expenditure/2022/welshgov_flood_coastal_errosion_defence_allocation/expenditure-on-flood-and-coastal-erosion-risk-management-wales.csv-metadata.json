@@ -68,25 +68,57 @@
     ],
     "rdfs:seeAlso": [
         {
-            "@id": "expenditure-on-flood-and-coastal-erosion-risk-management-wales.csv#component/allocated-spssding",
+            "@id": "expenditure-on-flood-and-coastal-erosion-risk-management-wales.csv#structure",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#DataStructureDefinition",
                 "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#component": [
+                {
+                    "@id": "expenditure-on-flood-and-coastal-erosion-risk-management-wales.csv#component/measure-type"
+                },
+                {
+                    "@id": "expenditure-on-flood-and-coastal-erosion-risk-management-wales.csv#component/unit"
+                },
+                {
+                    "@id": "expenditure-on-flood-and-coastal-erosion-risk-management-wales.csv#component/allocated-spssding"
+                },
+                {
+                    "@id": "expenditure-on-flood-and-coastal-erosion-risk-management-wales.csv#component/period"
+                }
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
                     "@id": "expenditure-on-flood-and-coastal-erosion-risk-management-wales.csv#measure/allocated-spssding"
-                }
-            ],
-            "http://purl.org/linked-data/cube#measure": [
+                },
                 {
-                    "@id": "expenditure-on-flood-and-coastal-erosion-risk-management-wales.csv#measure/allocated-spssding"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                },
                 {
-                    "@value": 4
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                },
+                {
+                    "@id": "expenditure-on-flood-and-coastal-erosion-risk-management-wales.csv#dimension/period"
+                }
+            ]
+        },
+        {
+            "@id": "expenditure-on-flood-and-coastal-erosion-risk-management-wales.csv#class/period",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/2000/01/rdf-schema#Class"
+            ]
+        },
+        {
+            "@id": "expenditure-on-flood-and-coastal-erosion-risk-management-wales.csv#csvcubed-build-activity",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/ns/prov#Activity"
+            ],
+            "http://www.w3.org/ns/prov#used": [
+                {
+                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.1.11"
                 }
             ]
         },
@@ -114,13 +146,36 @@
             ]
         },
         {
-            "@id": "expenditure-on-flood-and-coastal-erosion-risk-management-wales.csv#dataset",
+            "@id": "expenditure-on-flood-and-coastal-erosion-risk-management-wales.csv#component/allocated-spssding",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#DataSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "expenditure-on-flood-and-coastal-erosion-risk-management-wales.csv#measure/allocated-spssding"
+                }
+            ],
+            "http://purl.org/linked-data/cube#measure": [
+                {
+                    "@id": "expenditure-on-flood-and-coastal-erosion-risk-management-wales.csv#measure/allocated-spssding"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 4
+                }
+            ]
+        },
+        {
+            "@id": "expenditure-on-flood-and-coastal-erosion-risk-management-wales.csv#dataset",
+            "@type": [
                 "http://purl.org/linked-data/cube#Attachable",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://www.w3.org/ns/dcat#Dataset",
-                "http://www.w3.org/ns/dcat#Resource"
+                "http://www.w3.org/ns/dcat#Resource",
+                "http://purl.org/linked-data/cube#DataSet"
             ],
             "http://purl.org/dc/terms/description": [
                 {
@@ -136,7 +191,7 @@
             "http://purl.org/dc/terms/issued": [
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-                    "@value": "2022-10-25T14:02:23.979250"
+                    "@value": "2022-10-25T15:46:40.481431"
                 }
             ],
             "http://purl.org/dc/terms/license": [
@@ -147,7 +202,7 @@
             "http://purl.org/dc/terms/modified": [
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-                    "@value": "2022-10-25T14:02:23.979250"
+                    "@value": "2022-10-25T15:46:40.481431"
                 }
             ],
             "http://purl.org/dc/terms/publisher": [
@@ -185,30 +240,11 @@
             ]
         },
         {
-            "@id": "expenditure-on-flood-and-coastal-erosion-risk-management-wales.csv#class/period",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Class",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ]
-        },
-        {
-            "@id": "expenditure-on-flood-and-coastal-erosion-risk-management-wales.csv#csvcubed-build-activity",
-            "@type": [
-                "http://www.w3.org/ns/prov#Activity",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://www.w3.org/ns/prov#used": [
-                {
-                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.1.11"
-                }
-            ]
-        },
-        {
             "@id": "expenditure-on-flood-and-coastal-erosion-risk-management-wales.csv#measure/allocated-spssding",
             "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#ComponentProperty",
                 "http://purl.org/linked-data/cube#MeasureProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
             ],
             "http://www.w3.org/2000/01/rdf-schema#comment": [
@@ -226,37 +262,6 @@
             "http://www.w3.org/2000/01/rdf-schema#range": [
                 {
                     "@id": "http://www.w3.org/2001/XMLSchema#decimal"
-                }
-            ]
-        },
-        {
-            "@id": "expenditure-on-flood-and-coastal-erosion-risk-management-wales.csv#dimension/period",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#CodedProperty",
-                "http://purl.org/linked-data/cube#DimensionProperty"
-            ],
-            "http://purl.org/linked-data/cube#codeList": [
-                {
-                    "@id": "period.csv#code-list"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Period"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "expenditure-on-flood-and-coastal-erosion-risk-management-wales.csv#class/period"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/dimension#refPeriod"
                 }
             ]
         },
@@ -280,42 +285,6 @@
             "http://purl.org/linked-data/cube#order": [
                 {
                     "@value": 2
-                }
-            ]
-        },
-        {
-            "@id": "expenditure-on-flood-and-coastal-erosion-risk-management-wales.csv#structure",
-            "@type": [
-                "http://purl.org/linked-data/cube#DataStructureDefinition",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#component": [
-                {
-                    "@id": "expenditure-on-flood-and-coastal-erosion-risk-management-wales.csv#component/measure-type"
-                },
-                {
-                    "@id": "expenditure-on-flood-and-coastal-erosion-risk-management-wales.csv#component/period"
-                },
-                {
-                    "@id": "expenditure-on-flood-and-coastal-erosion-risk-management-wales.csv#component/allocated-spssding"
-                },
-                {
-                    "@id": "expenditure-on-flood-and-coastal-erosion-risk-management-wales.csv#component/unit"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
-                },
-                {
-                    "@id": "expenditure-on-flood-and-coastal-erosion-risk-management-wales.csv#dimension/period"
-                },
-                {
-                    "@id": "expenditure-on-flood-and-coastal-erosion-risk-management-wales.csv#measure/allocated-spssding"
-                },
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
                 }
             ]
         },
@@ -348,10 +317,41 @@
             ]
         },
         {
+            "@id": "expenditure-on-flood-and-coastal-erosion-risk-management-wales.csv#dimension/period",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "period.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Period"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "expenditure-on-flood-and-coastal-erosion-risk-management-wales.csv#class/period"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/dimension#refPeriod"
+                }
+            ]
+        },
+        {
             "@id": "expenditure-on-flood-and-coastal-erosion-risk-management-wales.csv#dependency/period",
             "@type": [
-                "http://rdfs.org/ns/void#Dataset",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://rdfs.org/ns/void#Dataset"
             ],
             "http://rdfs.org/ns/void#dataDump": [
                 {
@@ -367,9 +367,9 @@
         {
             "@id": "expenditure-on-flood-and-coastal-erosion-risk-management-wales.csv#unit/gbp-millions",
             "@type": [
-                "http://www.ontology-of-units-of-measure.org/resource/om-2/Unit",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://qudt.org/schema/qudt/Unit"
+                "http://qudt.org/schema/qudt/Unit",
+                "http://www.ontology-of-units-of-measure.org/resource/om-2/Unit"
             ],
             "http://qudt.org/schema/qudt/isScalingOf": [
                 {
