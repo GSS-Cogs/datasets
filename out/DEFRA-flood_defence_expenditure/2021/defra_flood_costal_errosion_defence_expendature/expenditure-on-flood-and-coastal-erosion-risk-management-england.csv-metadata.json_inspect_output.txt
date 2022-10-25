@@ -1,0 +1,74 @@
+
+- This file is a data cube.
+
+- The data cube has the following catalog metadata:
+        - Title: Expenditure on flood and coastal erosion risk management (England)
+        - Label: Expenditure on flood and coastal erosion risk management (England)
+        - Issued: 2022-04-10T00:00:00
+        - Modified: 2022-04-25T00:00:00
+        - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+        - Creator: None
+        - Publisher: https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs
+        - Landing Pages: None
+        - Themes: None
+        - Keywords: None
+        - Contact Point: None
+        - Identifier: Expenditure on flood and coastal erosion risk management (England)
+        - Comment: English expenditure on flood and costal erosion risk management
+        - Description: Coastal erosional and risk management is a develoved competency, as such this report only covers DEFRA's directed spend for England. Government funding varies from year to year. This is partly because the need for work varies including responding to significant flood events. This means that comparing any 2 years in isolation does not give a good indication of trends in spending. This data has been extracted from the report hosted at https://www.gov.uk/government/statistics/funding-for-flood-and-coastal-erosion-risk-management-in-england.
+        
+
+- The data cube has the following data structure definition:
+        - Dataset Label: Expenditure on flood and coastal erosion risk management (England)
+        - Number of Components: 5
+        - Components:
+                                                                                                          Property                          Property Label Property Type    Column Title  Required
+                             expenditure-on-flood-and-coastal-erosion-risk-management-england.csv#dimension/period                                  Period     Dimension government_year      True
+                                                                      http://purl.org/linked-data/cube#measureType                                             Dimension         measure      True
+                                                       http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure                                             Attribute                      True
+                          expenditure-on-flood-and-coastal-erosion-risk-management-england.csv#measure/total-spend                             Total Spend       Measure                      True
+expenditure-on-flood-and-coastal-erosion-risk-management-england.csv#measure/total-spend-real-terms-2021-base-year Total Spend (Real Terms 2021 Base Year)       Measure                      True
+        - Columns where suppress output is true: 
+		-- Uri Identifier
+
+- The data cube has the following code list information:
+        - Number of Code Lists: 1
+        - Code Lists:
+           Code List Code List Label Columns Used In
+period.csv#code-list          Period government_year
+
+- The data cube has the following dataset information:
+        - Number of Observations: 32
+        - Number of Duplicates: 0
+        - First 10 Observations: 
+government_year  value     measure
+      2005-2006  508.7 total-spend
+      2006-2007  506.8 total-spend
+      2007-2008  499.8 total-spend
+      2008-2009  567.6 total-spend
+      2009-2010  633.1 total-spend
+      2010-2011  670.1 total-spend
+      2011-2012  572.9 total-spend
+      2012-2013  576.3 total-spend
+      2013-2014  606.2 total-spend
+      2014-2015  802.6 total-spend
+        - Last 10 Observations: 
+government_year  value                               measure
+      2011-2012  698.4 total-spend-real-terms-2021-base-year
+      2012-2013  688.5 total-spend-real-terms-2021-base-year
+      2013-2014  711.3 total-spend-real-terms-2021-base-year
+      2014-2015  929.0 total-spend-real-terms-2021-base-year
+      2015-2016  816.1 total-spend-real-terms-2021-base-year
+      2016-2017  890.6 total-spend-real-terms-2021-base-year
+      2017-2018  855.5 total-spend-real-terms-2021-base-year
+      2018-2019  852.5 total-spend-real-terms-2021-base-year
+      2019-2020  912.0 total-spend-real-terms-2021-base-year
+      2020-2021 1052.0 total-spend-real-terms-2021-base-year
+        
+
+- The data cube has the following value counts:
+        - Value counts broken-down by measure and unit (of measure):
+                              Measure           Unit  Count
+                          total-spend GBP (Millions)     16
+total-spend-real-terms-2021-base-year GBP (Millions)     16
+        
