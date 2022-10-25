@@ -1,0 +1,39 @@
+{
+    "$schema": "https://purl.org/csv-cubed/qube-config/v1",
+    "title": "Expenditure on flood and coastal erosion risk management (England)",
+    "summary": "English expenditure on flood and costal erosion risk management",
+    "description": "Coastal erosional and risk management is a develoved competency, as such this report only covers DEFRA's directed spend for England. Government funding varies from year to year. This is partly because the need for work varies including responding to significant flood events. This means that comparing any 2 years in isolation does not give a good indication of trends in spending. This data has been extracted from the report hosted at https://www.gov.uk/government/statistics/funding-for-flood-and-coastal-erosion-risk-management-in-england.",
+    "publisher": "https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs",
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "dataset_issued": "2022-04-10",
+    "dataset_modified": "2022-04-25",
+    "columns": {
+        "government_year": {
+            "label": "Period",
+            "from_template": "government-year"
+        },
+        "value": {
+            "type": "observations",
+            "unit": {
+                "label": "GBP (Millions)",
+                "from_existing": "http://qudt.org/vocab/unit/PoundSterling",
+                "scaling_factor": 1000000
+            }
+        },
+        "measure": {
+            "type": "measures",
+            "values": [
+                {
+                    "label": "Total Spend",
+                    "description": "Total spend in nominal currency",
+                    "from_existing": "http://gss-data.org.uk/def/measure/expenditure"
+                },
+                {
+                    "label": "Total Spend (Real Terms 2021 Base Year)",
+                    "description": "Total spend in adjusted currency to 2021 GBP using HMRC's deflator at https://www.gov.uk/government/statistics/gdp-deflators-at-market-prices-and-money-gdp-june-2019-quarterly-national-accounts.",
+                    "from_existing": "http://gss-data.org.uk/def/measure/expenditure"
+                }
+            ]
+        }
+    }
+}
