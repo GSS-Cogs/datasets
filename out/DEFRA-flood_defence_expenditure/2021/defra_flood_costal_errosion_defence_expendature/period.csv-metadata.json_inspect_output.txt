@@ -4,8 +4,8 @@
 - The code list has the following catalog metadata:
         - Title: Period
         - Label: Period
-        - Issued: 2022-10-25T13:54:01.103643
-        - Modified: 2022-10-25T13:54:01.103643
+        - Issued: 2022-10-25T13:55:22.881250
+        - Modified: 2022-10-25T13:55:22.881250
         - License: None
         - Creator: None
         - Publisher: None
