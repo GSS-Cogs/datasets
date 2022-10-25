@@ -24,15 +24,16 @@
             "type": "measures",
             "values": [
                 {
-                    "label": "Total Spend (Real Terms 2021 Base Year)",
-                    "description": "Total spend in adjusted currency to 2021 GBP using HMRC's deflator at https://www.gov.uk/government/statistics/gdp-deflators-at-market-prices-and-money-gdp-june-2019-quarterly-national-accounts.",
-                    "from_existing": "http://gss-data.org.uk/def/measure/expenditure"
-                },
-                {
                     "label": "Total Spend",
                     "description": "Total spend in nominal currency",
                     "from_existing": "http://gss-data.org.uk/def/measure/expenditure"
+                },
+                {
+                    "label": "Total Spend (Real Terms 2021 Base Year)",
+                    "description": "Total spend in adjusted currency to 2021 GBP using HMRC's deflator at https://www.gov.uk/government/statistics/gdp-deflators-at-market-prices-and-money-gdp-june-2019-quarterly-national-accounts.",
+                    "from_existing": "http://gss-data.org.uk/def/measure/expenditure"
                 }
+                
             ]
         }
     }
