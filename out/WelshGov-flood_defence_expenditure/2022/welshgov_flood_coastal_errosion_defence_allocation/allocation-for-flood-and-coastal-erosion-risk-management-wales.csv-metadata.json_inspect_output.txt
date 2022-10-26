@@ -4,8 +4,8 @@
 - The data cube has the following catalog metadata:
         - Title: Allocation for flood and coastal erosion risk management (Wales)
         - Label: Allocation for flood and coastal erosion risk management (Wales)
-        - Issued: 2022-10-26T08:45:27.858636
-        - Modified: 2022-10-26T08:45:27.858636
+        - Issued: 2022-10-26T09:03:43.153796
+        - Modified: 2022-10-26T09:03:43.153796
         - License: https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/
         - Creator: None
         - Publisher: https://gov.wales
@@ -22,11 +22,11 @@
         - Dataset Label: Allocation for flood and coastal erosion risk management (Wales)
         - Number of Components: 4
         - Components:
-                                                                                     Property    Property Label Property Type    Column Title  Required
-          allocation-for-flood-and-coastal-erosion-risk-management-wales.csv#dimension/period            Period     Dimension government_year      True
-                                                 http://purl.org/linked-data/cube#measureType                       Dimension                      True
-                                  http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure                       Attribute                      True
-allocation-for-flood-and-coastal-erosion-risk-management-wales.csv#measure/allocated-spssding Allocated Sp§ding       Measure           value      True
+                                                                                     Property     Property Label Property Type    Column Title  Required
+          allocation-for-flood-and-coastal-erosion-risk-management-wales.csv#dimension/period             Period     Dimension government_year      True
+                                                 http://purl.org/linked-data/cube#measureType                        Dimension                      True
+                                  http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure                        Attribute                      True
+allocation-for-flood-and-coastal-erosion-risk-management-wales.csv#measure/allocated-spending Allocated Spending       Measure           value      True
         - Columns where suppress output is true: 
 		-- Uri Identifier
 
@@ -67,6 +67,6 @@ government_year  value
 
 - The data cube has the following value counts:
         - Value counts broken-down by measure and unit (of measure):
-          Measure           Unit  Count
-Allocated Sp§ding GBP (Millions)     16
+           Measure           Unit  Count
+Allocated Spending GBP (Millions)     16
         
