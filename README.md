@@ -5,6 +5,9 @@ This README is manually maintained.
 
 The structure is essentially a mono-repo for ad hoc datasets where there is not an intent to keep this data around forever, or to fulfill a specific purpose.
 
+The CSV-Ws stored here are available as a [webpage](https://gss-cogs.github.io/datasets/)
+
+## Contents
 There are two datasets which support the work of the [climate change](https://climate-change.data.gov.uk) portal, which cover the same topic for England and Wales.
 
 * DEFRA's flood defence spending for England
