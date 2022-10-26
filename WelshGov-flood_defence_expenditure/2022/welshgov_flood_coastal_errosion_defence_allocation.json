@@ -5,6 +5,8 @@
     "description": "Coastal erosional and risk management is a develoved competency, as such this report only covers the Welsh Government's allocated budget for Wales. This data was provided direct to Integrated Data Service Dissemination for inclusion in the Climate Change dashboard hosted at climate-change.data.gov.uk.",
     "publisher": "https://gov.wales",
     "license": "https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/",
+    "themes": "Climate Change",
+    "keywords": ["flood defence", "coastal erosion", "budget allocation"],
     "columns": {
         "government_year": {
             "label": "Period",
