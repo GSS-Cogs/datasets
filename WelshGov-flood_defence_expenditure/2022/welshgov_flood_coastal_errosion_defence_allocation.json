@@ -18,7 +18,7 @@
                 "scaling_factor": 1000000
             },
             "measure": {
-                "label": "Allocated Sp§ding",
+                "label": "Allocated Spending",
                 "description": "Allocated spending is spending set aside in a budget for a budgeting body for a specific purpsoe, not all funds are necessarily spent as this is not the same as allocation."
             }
         }
