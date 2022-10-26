@@ -11,7 +11,10 @@
         - Publisher: https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs
         - Landing Pages: None
         - Themes: None
-        - Keywords: None
+        - Keywords: 
+		-- coastal erosion
+		-- spending
+		-- flood defence
         - Contact Point: None
         - Identifier: Expenditure on flood and coastal erosion risk management (England)
         - Comment: English expenditure on flood and costal erosion risk management
