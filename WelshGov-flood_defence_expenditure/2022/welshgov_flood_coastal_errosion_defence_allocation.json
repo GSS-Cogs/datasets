@@ -1,7 +1,7 @@
 {
     "$schema": "https://purl.org/csv-cubed/qube-config/v1",
-    "title": "Expenditure on flood and coastal erosion risk management (Wales)",
-    "summary": "Welsh expenditure on flood and costal erosion risk management",
+    "title": "Allocation for flood and coastal erosion risk management (Wales)",
+    "summary": "Welsh allocation for flood and costal erosion risk management",
     "description": "Coastal erosional and risk management is a develoved competency, as such this report only covers the Welsh Government's allocated budget for Wales. This data was provided direct to Integrated Data Service Dissemination for inclusion in the Climate Change dashboard hosted at climate-change.data.gov.uk.",
     "publisher": "https://gov.wales",
     "license": "https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/",
@@ -19,7 +19,7 @@
             },
             "measure": {
                 "label": "Allocated Sp§ding",
-                "description": "Allocated spending is spending set aside in a budget for a budgeting body for a specific purpsoe, not all funds are necessarily spent as this is not the same as expenditure."
+                "description": "Allocated spending is spending set aside in a budget for a budgeting body for a specific purpsoe, not all funds are necessarily spent as this is not the same as allocation."
             }
         }
     }
