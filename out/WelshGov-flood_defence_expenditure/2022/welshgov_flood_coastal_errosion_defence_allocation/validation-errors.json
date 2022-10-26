@@ -5,12 +5,5 @@
         "offending_value": "https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/",
         "schema_validator_type": "enum",
         "children": []
-    },
-    {
-        "message": "Publisher 'https://gov.wales' is not recognised by csvcubed.",
-        "json_path": "$.publisher",
-        "offending_value": "https://gov.wales",
-        "schema_validator_type": "enum",
-        "children": []
     }
 ]
