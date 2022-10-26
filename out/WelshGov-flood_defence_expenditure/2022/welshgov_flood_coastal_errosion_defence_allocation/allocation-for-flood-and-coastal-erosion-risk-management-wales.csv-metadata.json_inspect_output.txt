@@ -4,17 +4,20 @@
 - The data cube has the following catalog metadata:
         - Title: Allocation for flood and coastal erosion risk management (Wales)
         - Label: Allocation for flood and coastal erosion risk management (Wales)
-        - Issued: 2022-10-26T09:11:48.197263
-        - Modified: 2022-10-26T09:11:48.197263
+        - Issued: 2022-10-26T09:42:05.745168
+        - Modified: 2022-10-26T09:42:05.745168
         - License: https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/
         - Creator: None
         - Publisher: https://gov.wales
         - Landing Pages: None
-        - Themes: None
+        - Themes: 
+		-- http://gss-data.org.uk/def/gdp#climate-change
+		-- http://gss-data.org.uk/def/gdp#climate-change
+		-- http://gss-data.org.uk/def/gdp#climate-change
         - Keywords: 
-		-- coastal erosion
 		-- budget allocation
 		-- flood defence
+		-- coastal erosion
         - Contact Point: None
         - Identifier: Allocation for flood and coastal erosion risk management (Wales)
         - Comment: Welsh allocation for flood and costal erosion risk management
