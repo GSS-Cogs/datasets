@@ -1,0 +1,72 @@
+
+- This file is a data cube.
+
+- The data cube has the following catalog metadata:
+        - Title: Allocation for flood and coastal erosion risk management (Wales)
+        - Label: Allocation for flood and coastal erosion risk management (Wales)
+        - Issued: 2022-10-26T08:45:27.858636
+        - Modified: 2022-10-26T08:45:27.858636
+        - License: https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/
+        - Creator: None
+        - Publisher: https://gov.wales
+        - Landing Pages: None
+        - Themes: None
+        - Keywords: None
+        - Contact Point: None
+        - Identifier: Allocation for flood and coastal erosion risk management (Wales)
+        - Comment: Welsh allocation for flood and costal erosion risk management
+        - Description: Coastal erosional and risk management is a develoved competency, as such this report only covers the Welsh Government's allocated budget for Wales. This data was provided direct to Integrated Data Service Dissemination for inclusion in the Climate Change dashboard hosted at climate-change.data.gov.uk.
+        
+
+- The data cube has the following data structure definition:
+        - Dataset Label: Allocation for flood and coastal erosion risk management (Wales)
+        - Number of Components: 4
+        - Components:
+                                                                                     Property    Property Label Property Type    Column Title  Required
+          allocation-for-flood-and-coastal-erosion-risk-management-wales.csv#dimension/period            Period     Dimension government_year      True
+                                                 http://purl.org/linked-data/cube#measureType                       Dimension                      True
+                                  http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure                       Attribute                      True
+allocation-for-flood-and-coastal-erosion-risk-management-wales.csv#measure/allocated-spssding Allocated Sp§ding       Measure           value      True
+        - Columns where suppress output is true: 
+		-- Uri Identifier
+
+- The data cube has the following code list information:
+        - Number of Code Lists: 1
+        - Code Lists:
+           Code List Code List Label Columns Used In
+period.csv#code-list          Period government_year
+
+- The data cube has the following dataset information:
+        - Number of Observations: 16
+        - Number of Duplicates: 0
+        - First 10 Observations: 
+government_year  value
+      2007-2008  32.20
+      2008-2009  35.70
+      2009-2010  44.40
+      2010-2011  61.50
+      2011-2012  51.90
+      2012-2013  52.70
+      2013-2014  57.20
+      2014-2015  51.93
+      2015-2016  49.81
+      2016-2017  54.95
+        - Last 10 Observations: 
+government_year  value
+      2013-2014  57.20
+      2014-2015  51.93
+      2015-2016  49.81
+      2016-2017  54.95
+      2017-2018  54.18
+      2018-2019  56.89
+      2019-2020  51.75
+      2020-2021  55.20
+      2021-2022  65.15
+      2022-2023  71.15
+        
+
+- The data cube has the following value counts:
+        - Value counts broken-down by measure and unit (of measure):
+          Measure           Unit  Count
+Allocated Sp§ding GBP (Millions)     16
+        
