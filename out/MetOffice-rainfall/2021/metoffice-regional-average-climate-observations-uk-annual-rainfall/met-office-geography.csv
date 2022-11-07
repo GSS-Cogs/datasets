@@ -1,0 +1,11 @@
+Uri Identifier,Label,Notation,Parent Uri Identifier,Sort Priority,Description
+england,England,england,,0,
+england-trend,England trend,england-trend,,1,
+northern-ireland,Northern Ireland,northern-ireland,,2,
+northern-ireland-trend,Northern Ireland trend,northern-ireland-trend,,3,
+scotland,Scotland,scotland,,4,
+scotland-trend,Scotland trend,scotland-trend,,5,
+uk,UK,uk,,6,
+uk-trend,UK trend,uk-trend,,7,
+wales,Wales,wales,,8,
+wales-trend,Wales trend,wales-trend,,9,
